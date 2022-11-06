@@ -1,0 +1,354 @@
+:root {
+    --vermelho: #e50914;
+    --preto: #141414;
+    --branco: #AAA;
+    --hover: #FFF;  
+    --background:	#DCDCDC;  
+}
+
+* {
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'Suez One', serif;   
+    max-width: 100%; 
+}
+
+body {
+   /* background: -webkit-gradient(linear, left top, left bottom, from(var(--vermelho)), to(var(--preto)));
+   */
+   background-color: var(--preto);
+   max-width: 100%;
+}
+
+/*header*/
+
+header {
+    background-color: var(--preto);
+    padding-top: 0px;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-bottom: 10px;
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    text-align: left;
+    border-top: 2px solid var(--branco);
+    border-bottom: 2px solid var(--branco);
+}
+
+.menu {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    margin: 0%;
+    padding: 0%;
+}
+
+.box-logo{
+    width: 50%;
+    margin-top: 0%;
+    margin-left: 5px;
+    padding: 0%;
+}
+
+.logo {
+    width:40%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.nome1 {
+    color: var(--vermelho);
+    font-family: 'Rock Salt', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.nome-empresa {
+    width: 100%;
+    text-align: center;
+}
+
+.nome2 {
+    font-family: 'Allerta', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    background-color: var(--vermelho);
+    margin: 0%;
+    padding: 0px 0px;    
+}
+
+.menu-nav {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav-links {
+    color: var(--vermelho);
+/*  font-family: 'Suez One', serif; */
+    text-decoration: none;
+    font-size: 28px;
+    transition: all 0.20s;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-links:hover {
+    color: var(--hover);
+}
+
+.mini-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links {
+    font-size: 30px;
+    color: var(--branco);
+    margin-top: 5px;
+    margin-right: 3px;
+    transition: all 0.20s;
+}
+
+.links:hover {
+    color: var(--hover);
+}
+
+/* Main*/
+
+.topo {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.bg-video {
+    display: flex;
+    width: 100%; 
+    height: 80%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.back-box-txt {
+  width: 50%;
+  margin-top: 7%; 
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  bottom: auto;
+  left: 25%;
+  text-align: center;
+}
+
+.box-txt {
+  padding: 10px;  
+  border-radius: 1rem;
+}
+
+
+.txt {
+  /*  font-family: 'Architects Daughter', cursive; */
+  font-size: 80px;
+  font-family: 'Permanent Marker', cursive;
+  color: var(--vermelho);
+}
+
+.slogan-black {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 85px;
+  color: var(--vermelho);
+}
+
+/* Section Meio */
+
+/*Meio 1*/
+
+.meio {
+  width: 100%;
+  align-items: center;
+}
+
+.box-meio {
+  width: 100%;
+}
+
+.meio1 {
+  width: auto;
+  background-color: var(--preto)
+}
+
+.box-meio1 {
+  width: 100%;
+  padding: 2%;
+}
+
+.box-titulo1 {
+  width: auto;
+  align-items: center;
+}
+
+.titulo1 {
+  font-style: bold;
+  text-align: center;
+  color: var(--vermelho);
+  font-size: 60px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.box-imgs-meio1 {
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.meio1-grupo1, .meio1-grupo2, .meio1-grupo3 {
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.img-meio1 {
+  height: 80%;
+  width: 300px;
+  border-radius: 1rem;
+}
+
+/*Meio 2*/
+
+.meio2 {
+  width: 100%;
+}
+
+.box-meio2 {
+  width: 100%;
+  display: flex;
+}
+
+.meio2-left {
+  background-image: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)100%), url(../midia/imgs/meio/meio2/img1.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 800px;
+  text-align: center;
+}
+
+.titulo-meio2-left {
+  color: var(--vermelho);
+  font-size: 60px;
+  font-style: bold;
+}
+
+.txt-meio2-left {
+  color: var(--hover);
+  font-size: 30px;
+}
+
+.meio2-right {
+  background-image: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.70)100%), url(../midia/imgs/meio/meio2/img2.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 800px;
+  text-align: center;
+}
+
+.box-txt-meio2-left {
+  margin-top: 50%;
+} 
+
+.box-txt-meio2-rigth {
+  margin-top: 50%;
+}
+
+.titulo-meio2-right {
+  color: var(--vermelho);
+  font-size: 60px;
+  font-style: bold;
+}
+
+.txt-meio2-right {
+  color: var(--hover);
+  font-size: 30px;
+}
+
+/*Meio 3 */
+
+.meio3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.saiba-mais {
+  font-size: 40px;
+  color: var(--vermelho);
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.box-meio3 {
+  width: auto;
+  display: flex;
+}
+
+.box-imput-meio3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-txt1-meio3, .box-txt2-meio3 {
+  margin-right: 20%;
+  width: 200px;
+}
+
+.box-txt2-meio3 {
+  margin-top: 5%;
+}
+
+.img-matao {
+  width: 600px;
+}
+
+.txt-meio3 {
+ font-size: 15px;
+ margin-right: 1%;
+ color: var(--hover);
+}
+
+#nome, #email {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+/* Footer */
+
+.rodape {
+    width: 100%;
+    background-color: var(--preto);
+    margin-top: 40px;
+    text-align: center;
+}
+
+.box-rodape {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-rodape {
+    color: var(--hover);
+    font-size: 20px;
+    margin-top: 10px;
+}
